@@ -67,7 +67,7 @@ const Navbar = () => {
 
      
       <div className="lg:hidden">
-        <button onClick={toggleMenu} className="text-2xl">
+        <button onClick={toggleMenu} className=" relative text-2xl" style={{ zIndex: 100}}>
           {isMenuOpen ? (
             <HiX className="text-white" />
           ) : (
