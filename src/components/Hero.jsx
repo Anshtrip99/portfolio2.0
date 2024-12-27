@@ -14,7 +14,7 @@ const container = (delay) =>({
 
 
 
-const Hero = () => {
+const hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
     <div className="flex flex-wrap items-center">
@@ -71,4 +71,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default hero
